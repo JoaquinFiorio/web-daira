@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Color de texto blanco */
+    font-family: sans-serif;
+    /* O la fuente que uses */
+}
+
+.hero-section,
+.hero-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    padding: 60px 10%;
+    min-height: max-content;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-color: #141318;
+}
+
+.hero-section-2 {
+    background-color: black;
+    flex-direction: column;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 32px;
+    font-weight: lighter;
+    line-height: 1.5;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.hero-btn {
+    background: #e2b36c;
+    color: #19171c;
+    border: none;
+    padding: 14px 36px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Montserrat', Arial, sans-serif;
+    transition: background 0.2s;
+}
+
+.hero-btn:hover {
+    background: #c99c54;
+}
+
+.content-right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img {
+    position: relative;
+    width: 400px;
+    /* Ajusta tamaño según necesites */
+    z-index: 2;
+    /* para que quede encima de las monedas */
+}
+
+/* Contenedor de la órbita */
+.orbit-container {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Cada moneda es un circulito verde */
+.coin {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #15c584;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 -250px;
+    /* mitad del tamaño de la órbita */
+    animation: spin 8s linear infinite;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+/* Cada moneda con un ángulo distinto */
+.coin-1 {
+    transform: rotate(0deg) translateY(-230px);
+    animation-delay: 0s;
+}
+
+.coin-2 {
+    transform: rotate(90deg) translateY(-230px);
+    animation-delay: -2s;
+}
+
+.coin-3 {
+    transform: rotate(180deg) translateY(-230px);
+    animation-delay: -4s;
+}
+
+.coin-4 {
+    transform: rotate(270deg) translateY(-230px);
+    animation-delay: -6s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg) translateY(-230px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateY(-230px) rotate(-360deg);
+    }
+}
+
+@keyframes spin-mobile {
+    from {
+        transform: rotate(0deg) translateY(-180px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateY(-180px) rotate(-360deg);
+    }
+}
+
+
+header {
+    background-color: #191a1f;
+    padding: 20px 50px;
+    border-bottom: 2px solid black;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+.features-section {
+    width: 100%;
+    padding: 60px 0;
+    background-image: url('assets/img/tu-fondo-degrade.png');
+    /* Cambia por tu imagen */
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background: rgba(44, 32, 18, 0.85);
+    border-radius: 16px;
+    border: 2px solid #e2b36c;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.25);
+    padding: 32px 40px 24px 40px;
+    color: #fff;
+    position: relative;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./img/Landing-page2_06.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px;
+}
+
+.feature-icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 18px;
+    margin-top: -80px;
+}
+
+.feature-card h3 {
+    color: #e2b36c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.feature-card p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.form-section {
+    padding: 40px 0 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whitelist-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.whitelist-form input[type="text"],
+.whitelist-form input[type="email"],
+.whitelist-form input[type="tel"],
+.whitelist-form select {
+    background: #232323;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 16px 14px;
+    font-size: 1rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+.whitelist-form select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.whitelist-form input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.98rem;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.form-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 4px;
+    accent-color: #e2b36c;
+}
+
+.form-checkbox a {
+    color: #e2b36c;
+    text-decoration: none;
+}
+
+.form-btn {
+    background: #e2b36c;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 16px 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.form-btn:hover {
+    background: #c99c54;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.footer-logo {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.form-footer p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.title {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem; /* desktop */
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke: 2px transparent;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.title::before {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0; /* asegura que ocupe el mismo espacio */
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-weight: inherit;
+  background: linear-gradient(
+    180deg,
+    #b88a44 0%,
+    #e2b36c 30%,
+    #ffffff 50%,
+    #e2b36c 70%,
+    #b88a44 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px transparent;
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .feature-card {
+        padding: 24px 32px 16px 32px;
+    }
+
+    .content-right {
+        margin-top: 80px;
+    }
+
+    .content-right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .orbit-container {
+        width: 350px;
+        height: 350px;
+    }
+
+    .hero-section,
+    .hero-section-2 {
+        flex-direction: column;
+    }
+
+    .feature-icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .form-section {
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
+
+    .whitelist-form {
+        max-width: 100%;
+    }
+
+    .form-btn {
+        font-size: 1rem;
+    }
+
+    .footer-logo {
+        width: 120px;
+    }
+
+    .coin {
+        animation: spin-mobile 8s linear infinite;
+    }
+
+    .coin-1 {
+        animation-delay: 0s;
+    }
+
+    .coin-2 {
+        animation-delay: -2s;
+    }
+
+    .coin-3 {
+        animation-delay: -4s;
+    }
+
+    .coin-4 {
+        animation-delay: -6s;
+    }
+}
