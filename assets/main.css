@@ -686,7 +686,7 @@ header img {
     }
 
     .roadmap-img {
-        height: 43%;
+        height: 38%;
         top: 0px;
         left: -80px;
     }
@@ -698,5 +698,10 @@ header img {
     .slider {
         width: 100%;
         height: auto;
+    }
+    .gradient {
+        left: 0;
+        width: 350px;
+        height: 350px;
     }
 }
