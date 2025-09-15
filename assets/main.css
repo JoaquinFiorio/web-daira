@@ -700,8 +700,9 @@ header img {
         height: auto;
     }
     .gradient {
-        left: 0;
+        left: 25px;
         width: 350px;
         height: 350px;
+        bottom: -80px;
     }
 }
