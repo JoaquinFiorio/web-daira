@@ -611,6 +611,10 @@ header img {
     pointer-events: none;
 }
 
+.ep-iFrameContainer {
+    width: 100% !important;
+}
+
 @media (max-width: 768px) {
     .title {
         font-size: 2rem;
