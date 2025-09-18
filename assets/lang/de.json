@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Blonect Wallet",
+    "description": "Seien Sie Teil der Tokenisierung von Blonect Wallet vor dem Start. Erhalten Sie frühen Zugang und einen exklusiven Preis!",
+    "og_title": "Blonect Wallet - Ihr Platz in der neuen Wirtschaft",
+    "og_description": "Erhalten Sie frühen Zugang zu Blonect Wallet Tokens vor dem offiziellen Start. Nur 15$ pro Token!",
+    "twitter_title": "Blonect Wallet - Ihr Platz in der neuen Wirtschaft",
+    "twitter_description": "Erhalten Sie frühen Zugang zu Blonect Wallet Tokens vor dem offiziellen Start. Nur 15$ pro Token!"
+  },
+  "header": {
+    "logo_alt": "Blonect Wallet Logo"
+  },
+  "hero": {
+    "title1": "IHR PLATZ IN DER",
+    "title2": "NÄCHSTEN WIRTSCHAFT",
+    "title3": "BEGINNT HIER",
+    "description": "Seien Sie Teil der Tokenisierung des Wallets vor dem offiziellen Start. Erhalten Sie frühen Zugang und einen besseren Preis, nur 15$ pro Token (nur 200.000 Tokens verfügbar).",
+    "button": "Zugang anfordern",
+    "image_alt": "Blonect Wallet auf einem Telefon"
+  },
+  "what_is": {
+    "title": "WAS IST BLONECT?",
+    "description": "Blonect ist eine Multichain-Wallet, die auf Uni2Chain basiert. Sie integriert Krypto, NFTs, Social, Gaming und DeFi in ein nahtloses, vollständig dezentrales Erlebnis.",
+    "button": "Jetzt beitreten"
+  },
+  "features": {
+    "title": "FUNKTIONEN VON BLONECT",
+    "list_left": [
+      "Kein KYC erforderlich",
+      "Interaktion mit Smart Contracts",
+      "Integrierter Web3-Browser",
+      "Multichain, kompatibel mit Uni2Chain, BNB Chain, Ethereum, Solana, Polygon und Bitcoin.",
+      "Trend-Charts",
+      "Wallet-Scanner"
+    ],
+    "list_right": [
+      "Verschlüsselte Chats",
+      "Integrierter Swap",
+      "Krypto senden und empfangen in einfachen Schritten",
+      "Krypto per Telefonnummer oder E-Mail senden, auch wenn der Empfänger noch keine Wallet hat",
+      "Unterstützung für mehrere Konten",
+      "Echtzeit-Preise"
+    ]
+  },
+  "token_launch": {
+    "title": "ÜBERSICHT TOKEN-START",
+    "table": {
+      "header_phase1": "Phase 1: Whitelist",
+      "header_phase2": "Phase 2: Öffentlicher Verkauf",
+      "rows": {
+        "supply": ["200.000 Tokens (2%)", "700.000 Tokens (7%)"],
+        "price": ["15$/Token", "25$/Token"],
+        "raise": ["3 Mio. $", "17,5 Mio. $"],
+        "access": ["Nur Whitelist", "Für alle offen"]
+      }
+    }
+  },
+  "rewards": {
+    "title": "AUFTEILUNG DER BELOHNUNGSAUSSCHÜTTUNG",
+    "subtitle": "Besitzen Sie einen Anteil am echten wirtschaftlichen Motor der Wallet.",
+    "description": "Sobald tokenisiert, verteilt Blonect einen Teil aller Wallet-Transaktionsgebühren an Token-Inhaber – und verwandelt Benutzer in Anteilseigner.",
+    "table": {
+      "year1": "Jahr 1",
+      "year2": "Jahr 2",
+      "year3_12": "Jahre 3–12",
+      "year13": "Jahr 13+",
+      "percents": [
+        "50% aller Wallet-Gebühren",
+        "25% aller Wallet-Gebühren",
+        "10% aller Wallet-Gebühren/Jahr",
+        "3% aller Wallet-Gebühren/Jahr"
+      ]
+    }
+  },
+  "why_join": {
+    "title": "WARUM DER BLONECT-WHITELIST BEITRETEN",
+    "features": [
+      {
+        "title": "Priorisierter Zugang für 15$/Token",
+        "description": "Sichern Sie sich Ihre Tokens zum Pre-Launch-Preis vor der Öffentlichkeit."
+      },
+      {
+        "title": "Verifizierte Whitelist = Frühinvestoren-Vorteile",
+        "description": "Exklusive Boni nur für frühe Inhaber."
+      },
+      {
+        "title": "Private Einführung in unser globales Web3-Netzwerk",
+        "description": "Treten Sie vor der Öffentlichkeit bei und sichern Sie sich exklusive Vorteile."
+      },
+      {
+        "title": "Besitz vor dem Start = strategischer Vorteil",
+        "description": "Sie kaufen nicht nur einen Token, Sie besitzen einen Teil des Ökosystems, bevor es live geht."
+      }
+    ]
+  },
+  "form": {
+    "title": "Formular - BLONECT",
+    "footer": {
+      "logo_alt": "Blonect Wallet Logo",
+      "copyright": "© Copyright Blonect. Alle Rechte vorbehalten."
+    }
+  }
+}

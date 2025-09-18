@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Blonect Wallet",
+    "description": "Be part of the Blonnect Wallet tokenization before launch. Get early access and exclusive price!",
+    "og_title": "Blonect Wallet - Your Spot in the Next Economy",
+    "og_description": "Get early access to Blonnect Wallet tokens before the official launch. Only $15 per token!",
+    "twitter_title": "Blonect Wallet - Your Spot in the Next Economy",
+    "twitter_description": "Get early access to Blonnect Wallet tokens before the official launch. Only $15 per token!"
+  },
+  "header": {
+    "logo_alt": "Blonect Wallet Logo"
+  },
+  "hero": {
+    "title1": "YOUR SPOT IN THE",
+    "title2": "NEXT ECONOMY",
+    "title3": "STARTS HERE",
+    "description": "Be part of the wallet's tokenization before the official launch. Get early access and a better price, just $15 per token (only 200,000 tokens available).",
+    "button": "Request access",
+    "image_alt": "Blonect Wallet on a phone"
+  },
+  "what_is": {
+    "title": "WHAT IS BLONECT?",
+    "description": "Blonect is a multichain wallet built on Uni2Chain. This wallet integrates crypto, NFTs, social, gaming and DeFi into one seamless experience, fully decentralized.",
+    "button": "Join now"
+  },
+  "features": {
+    "title": "FEATURES OF BLONECT",
+    "list_left": [
+      "No KYC required",
+      "Smart contract interaction",
+      "Integrated Web3 browser",
+      "Multichain, compatible with Uni2Chain, BNB Chain, Ethereum, Solana, Polygon and Bitcoin.",
+      "Trending charts",
+      "Wallet scanner"
+    ],
+    "list_right": [
+      "Encrypted chat",
+      "Integrated swap",
+      "Send and receive crypto with simple steps",
+      "Send crypto via phone number or email, even if the recipient doesn't have a wallet yet",
+      "Multi-account support",
+      "Real-time prices"
+    ]
+  },
+  "token_launch": {
+    "title": "TOKEN LAUNCH OVERVIEW",
+    "table": {
+      "header_phase1": "Phase 1: Whitelist",
+      "header_phase2": "Phase 2: Public sale",
+      "rows": {
+        "supply": ["200,000 tokens (2%)", "700,000 tokens (7%)"],
+        "price": ["$15/token", "$25/token"],
+        "raise": ["$3M", "$17.5M"],
+        "access": ["Whitelist only", "Open to all"]
+      }
+    }
+  },
+  "rewards": {
+    "title": "REWARD EMISSION BREAKDOWN",
+    "subtitle": "Own a share of the wallet's real economic engine.",
+    "description": "Once tokenized, Blonect will distribute a portion of all wallet transaction fees to token holders - turning users into stakeholders.",
+    "table": {
+      "year1": "Year 1",
+      "year2": "Year 2",
+      "year3_12": "Years 3–12",
+      "year13": "Year 13+",
+      "percents": [
+        "50% of all wallet fees",
+        "25% of all wallet fees",
+        "10% of all wallet fees/year",
+        "3% of all wallet fees/year"
+      ]
+    }
+  },
+  "why_join": {
+    "title": "WHY JOIN THE BLONECT WHITELIST",
+    "features": [
+      {
+        "title": "Priority access at $15/token",
+        "description": "Get in before the public, secure your tokens at pre-launch price."
+      },
+      {
+        "title": "Verified whitelist = early investor perks",
+        "description": "Exclusive bonuses reserved only for early holders."
+      },
+      {
+        "title": "Private onboarding to our global Web3 network",
+        "description": "Get in before the public, secure your tokens at pre-launch price."
+      },
+      {
+        "title": "Ownership before launch = strategic edge",
+        "description": "You're not just buying a token, you're owning a piece of the ecosystem before it goes live."
+      }
+    ]
+  },
+  "form": {
+    "title": "Form - BLONECT",
+    "footer": {
+      "logo_alt": "Blonect Wallet Logo",
+      "copyright": "© Copyright Blonect. All rights reserved."
+    }
+  }
+}

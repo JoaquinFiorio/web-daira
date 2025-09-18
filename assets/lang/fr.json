@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Portefeuille Blonect",
+    "description": "Participez à la tokenisation du Blonect Wallet avant son lancement. Obtenez un accès anticipé et un prix exclusif !",
+    "og_title": "Blonect Wallet - Votre place dans la nouvelle économie",
+    "og_description": "Obtenez un accès anticipé aux tokens du Blonect Wallet avant le lancement officiel. Seulement 15$ par token !",
+    "twitter_title": "Blonect Wallet - Votre place dans la nouvelle économie",
+    "twitter_description": "Obtenez un accès anticipé aux tokens du Blonect Wallet avant le lancement officiel. Seulement 15$ par token !"
+  },
+  "header": {
+    "logo_alt": "Logo du Blonect Wallet"
+  },
+  "hero": {
+    "title1": "VOTRE PLACE DANS LA",
+    "title2": "PROCHAINE ÉCONOMIE",
+    "title3": "COMMENCE ICI",
+    "description": "Participez à la tokenisation du portefeuille avant le lancement officiel. Obtenez un accès anticipé et un meilleur prix, seulement 15$ par token (seulement 200.000 tokens disponibles).",
+    "button": "Demander l'accès",
+    "image_alt": "Blonect Wallet sur un téléphone"
+  },
+  "what_is": {
+    "title": "QU’EST-CE QUE BLONECT ?",
+    "description": "Blonect est un portefeuille multichaîne construit sur Uni2Chain. Il intègre crypto, NFT, social, gaming et DeFi dans une expérience fluide, entièrement décentralisée.",
+    "button": "Rejoindre maintenant"
+  },
+  "features": {
+    "title": "FONCTIONNALITÉS DE BLONECT",
+    "list_left": [
+      "Aucun KYC requis",
+      "Interaction avec smart contract",
+      "Navigateur Web3 intégré",
+      "Multichaîne, compatible avec Uni2Chain, BNB Chain, Ethereum, Solana, Polygon et Bitcoin.",
+      "Graphiques tendances",
+      "Scanner de portefeuille"
+    ],
+    "list_right": [
+      "Chat chiffré",
+      "Échange intégré",
+      "Envoyer et recevoir des cryptos en quelques étapes",
+      "Envoyer des cryptos via numéro de téléphone ou email, même si le destinataire n’a pas encore de portefeuille",
+      "Support multi-comptes",
+      "Prix en temps réel"
+    ]
+  },
+  "token_launch": {
+    "title": "APERÇU DU LANCEMENT DU TOKEN",
+    "table": {
+      "header_phase1": "Phase 1 : Liste blanche",
+      "header_phase2": "Phase 2 : Vente publique",
+      "rows": {
+        "supply": ["200.000 tokens (2%)", "700.000 tokens (7%)"],
+        "price": ["15$/token", "25$/token"],
+        "raise": ["3M$", "17,5M$"],
+        "access": ["Liste blanche uniquement", "Ouvert à tous"]
+      }
+    }
+  },
+  "rewards": {
+    "title": "RÉPARTITION DES RÉCOMPENSES",
+    "subtitle": "Possédez une part du véritable moteur économique du portefeuille.",
+    "description": "Une fois tokenisé, Blonect distribuera une partie de tous les frais de transactions du portefeuille aux détenteurs de tokens - transformant les utilisateurs en parties prenantes.",
+    "table": {
+      "year1": "Année 1",
+      "year2": "Année 2",
+      "year3_12": "Années 3–12",
+      "year13": "Année 13+",
+      "percents": [
+        "50% de tous les frais du portefeuille",
+        "25% de tous les frais du portefeuille",
+        "10% de tous les frais du portefeuille/an",
+        "3% de tous les frais du portefeuille/an"
+      ]
+    }
+  },
+  "why_join": {
+    "title": "POURQUOI REJOINDRE LA LISTE BLANCHE BLONECT",
+    "features": [
+      {
+        "title": "Accès prioritaire à 15$/token",
+        "description": "Soyez en avance sur le public, sécurisez vos tokens au prix pré-lancement."
+      },
+      {
+        "title": "Liste blanche vérifiée = avantages d’investisseur précoce",
+        "description": "Bonus exclusifs réservés uniquement aux premiers détenteurs."
+      },
+      {
+        "title": "Intégration privée à notre réseau Web3 mondial",
+        "description": "Accédez avant le public et bénéficiez d’avantages exclusifs."
+      },
+      {
+        "title": "Possession avant lancement = avantage stratégique",
+        "description": "Vous n’achetez pas seulement un token, vous possédez une partie de l’écosystème avant sa mise en ligne."
+      }
+    ]
+  },
+  "form": {
+    "title": "Formulaire - BLONECT",
+    "footer": {
+      "logo_alt": "Logo du Blonect Wallet",
+      "copyright": "© Copyright Blonect. Tous droits réservés."
+    }
+  }
+}

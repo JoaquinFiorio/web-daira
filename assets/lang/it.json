@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Portafoglio Blonect",
+    "description": "Partecipa alla tokenizzazione del Blonect Wallet prima del lancio. Ottieni accesso anticipato ed un prezzo esclusivo!",
+    "og_title": "Blonect Wallet - Il tuo posto nella nuova economia",
+    "og_description": "Ottieni accesso anticipato ai token di Blonect Wallet prima del lancio ufficiale. Solo 15$ per token!",
+    "twitter_title": "Blonect Wallet - Il tuo posto nella nuova economia",
+    "twitter_description": "Ottieni accesso anticipato ai token di Blonect Wallet prima del lancio ufficiale. Solo 15$ per token!"
+  },
+  "header": {
+    "logo_alt": "Logo di Blonect Wallet"
+  },
+  "hero": {
+    "title1": "IL TUO POSTO NELLA",
+    "title2": "PROSSIMA ECONOMIA",
+    "title3": "INIZIA QUI",
+    "description": "Partecipa alla tokenizzazione del wallet prima del lancio ufficiale. Ottieni accesso anticipato e un prezzo migliore, solo 15$ per token (solo 200.000 token disponibili).",
+    "button": "Richiedi accesso",
+    "image_alt": "Blonect Wallet su un telefono"
+  },
+  "what_is": {
+    "title": "CHE COS'È BLONECT?",
+    "description": "Blonect è un portafoglio multichain costruito su Uni2Chain. Integra cripto, NFT, social, gaming e DeFi in un'esperienza unica, completamente decentralizzata.",
+    "button": "Unisciti ora"
+  },
+  "features": {
+    "title": "FUNZIONALITÀ DI BLONECT",
+    "list_left": [
+      "Nessun KYC richiesto",
+      "Interazione con smart contract",
+      "Browser Web3 integrato",
+      "Multichain, compatibile con Uni2Chain, BNB Chain, Ethereum, Solana, Polygon e Bitcoin.",
+      "Grafici di tendenza",
+      "Scanner del portafoglio"
+    ],
+    "list_right": [
+      "Chat crittografata",
+      "Swap integrato",
+      "Invia e ricevi cripto in pochi passaggi",
+      "Invia cripto via numero di telefono o email, anche se il destinatario non ha ancora un wallet",
+      "Supporto multi-account",
+      "Prezzi in tempo reale"
+    ]
+  },
+  "token_launch": {
+    "title": "PANORAMICA DEL LANCIO DEL TOKEN",
+    "table": {
+      "header_phase1": "Fase 1: Whitelist",
+      "header_phase2": "Fase 2: Vendita pubblica",
+      "rows": {
+        "supply": ["200.000 token (2%)", "700.000 token (7%)"],
+        "price": ["15$/token", "25$/token"],
+        "raise": ["3M$", "17.5M$"],
+        "access": ["Solo whitelist", "Aperto a tutti"]
+      }
+    }
+  },
+  "rewards": {
+    "title": "SUDDIVISIONE DELLE RICOMPENSE",
+    "subtitle": "Possiedi una quota del vero motore economico del wallet.",
+    "description": "Una volta tokenizzato, Blonect distribuirà una parte di tutte le commissioni delle transazioni del wallet ai possessori di token - trasformando gli utenti in azionisti.",
+    "table": {
+      "year1": "Anno 1",
+      "year2": "Anno 2",
+      "year3_12": "Anni 3–12",
+      "year13": "Anno 13+",
+      "percents": [
+        "50% di tutte le commissioni del wallet",
+        "25% di tutte le commissioni del wallet",
+        "10% di tutte le commissioni del wallet/anno",
+        "3% di tutte le commissioni del wallet/anno"
+      ]
+    }
+  },
+  "why_join": {
+    "title": "PERCHÉ UNIRSI ALLA WHITELIST DI BLONECT",
+    "features": [
+      {
+        "title": "Accesso prioritario a 15$/token",
+        "description": "Entra prima del pubblico e assicurati i token al prezzo pre-lancio."
+      },
+      {
+        "title": "Whitelist verificata = vantaggi da investitore precoce",
+        "description": "Bonus esclusivi riservati solo ai primi possessori."
+      },
+      {
+        "title": "Onboarding privato alla nostra rete Web3 globale",
+        "description": "Accedi prima del pubblico e ottieni vantaggi esclusivi."
+      },
+      {
+        "title": "Possesso prima del lancio = vantaggio strategico",
+        "description": "Non stai solo acquistando un token, stai possedendo una parte dell'ecosistema prima che vada online."
+      }
+    ]
+  },
+  "form": {
+    "title": "Modulo - BLONECT",
+    "footer": {
+      "logo_alt": "Logo di Blonect Wallet",
+      "copyright": "© Copyright Blonect. Tutti i diritti riservati."
+    }
+  }
+}
