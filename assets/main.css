@@ -36,6 +36,7 @@ body {
 
 .hero-section {
     background-color: #141318;
+    margin-top: 150px;
 }
 
 .hero-section-2 {
@@ -260,19 +261,59 @@ body {
     }
 }
 
-.countdown-banner {
-  width: 100%;
-  text-align: center;
-  background: #111; /* fondo oscuro */
-  color: #f5f5f5;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 6px 0;
-  letter-spacing: 0.5px;
+.countdown-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background-color: #000;
+    height: 80px;
 }
 
-.countdown-banner span {
-  color: #f0a020; /* color dorado/naranja */
+.time-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 10px 15px;
+    text-align: center;
+    min-width: 80px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.time-box span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 5px #FFD700, 0 0 10px #FFC107, 0 0 15px #FFA500;
+}
+
+.time-box small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 4px #FFD700, 0 0 8px #FFC107;
+}
+
+/* línea arriba como en tu ejemplo */
+.time-box::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #db9b3b, #a88859);
 }
 
 #language-switcher {
@@ -296,6 +337,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    z-index: 1000;
+    right: 0;
 }
 
 header img {
@@ -734,10 +781,17 @@ header img {
         width: 100%;
         height: auto;
     }
+
     .gradient {
         left: 25px;
         width: 350px;
         height: 350px;
         bottom: -80px;
     }
+
+    header img {
+        width: 150px;
+        height: auto;
+    }
+
 }

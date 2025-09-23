@@ -3,6 +3,12 @@ const langSwitcher = document.getElementById("language-switcher");
 // Guardar idioma en localStorage
 const getSavedLang = () => localStorage.getItem("lang") || "en";
 
+// ✅ Obtener idioma de la query string
+function getLangFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("lang"); // devuelve "es", "en", etc. o null
+}
+
 function updateTitle(selector, text) {
   const el = document.querySelector(selector);
   if (el) {
@@ -44,21 +50,27 @@ async function setLanguage(lang) {
     // Footer
     document.querySelector(".form-footer p").textContent = translations.form.footer.copyright;
 
+    // Guardar idioma
     localStorage.setItem("lang", lang);
   } catch (error) {
     console.error("Error cargando traducciones:", error);
   }
 }
 
-// Inicializar idioma guardado
-langSwitcher.value = getSavedLang();
-setLanguage(getSavedLang());
+// ✅ Inicializar idioma con prioridad: query > localStorage > "en"
+const queryLang = getLangFromQuery();
+const savedLang = getSavedLang();
+const initialLang = queryLang || savedLang;
+
+langSwitcher.value = initialLang;
+setLanguage(initialLang);
 
 // Evento al cambiar selector
 langSwitcher.addEventListener("change", (e) => {
   setLanguage(e.target.value);
 });
 
+// -------- COUNTDOWN --------
 const targetDate = new Date("2025-10-22T23:59:59").getTime();
 
 const daysEl = document.getElementById("days");
@@ -71,8 +83,7 @@ function updateCountdown() {
   const diff = targetDate - now;
 
   if (diff <= 0) {
-    document.querySelector(".countdown-banner").textContent =
-      "00:00:00:00";
+    document.querySelector(".countdown-banner").textContent = "00:00:00:00";
     clearInterval(interval);
     return;
   }
