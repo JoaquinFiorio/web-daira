@@ -95,9 +95,16 @@
   },
   "form": {
     "title": "Formulaire - BLONECT",
+    "button": "Candidater à la Liste Blanche",
     "footer": {
       "logo_alt": "Logo du Blonect Wallet",
       "copyright": "© Copyright Blonect. Tous droits réservés."
     }
+  },
+  "countdown": {
+    "days": "JOURS",
+    "hours": "HEURES",
+    "minutes": "MINUTES",
+    "seconds": "SECONDES"
   }
 }

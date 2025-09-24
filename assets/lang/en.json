@@ -95,9 +95,16 @@
   },
   "form": {
     "title": "Form - BLONECT",
+    "button": "Apply to Whitelist",
     "footer": {
       "logo_alt": "Blonect Wallet Logo",
       "copyright": "© Copyright Blonect. All rights reserved."
     }
+  },
+  "countdown": {
+    "days": "DAYS",
+    "hours": "HOURS",
+    "minutes": "MINUTES",
+    "seconds": "SECONDS"
   }
 }

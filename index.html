@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blonect Wallet</title>
+    <!-- Google Fonts - Inter (Web3 Professional Font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/main.css">
 
     <!-- ✅ Icono de la pestaña -->
@@ -277,14 +281,41 @@
         <span class="title" data-text="WHY JOIN THE BLONECT WHITELIST">
             WHY JOIN THE BLONECT WHITELIST
         </span>
-        <iframe style="width: 100%; height:100%; border:none; border-radius:4px"
-            src="https://api.connectingstartup.com/widget/form/ahmRpBFXlkpEkwQipkkt" id="inline-ahmRpBFXlkpEkwQipkkt"
-            class="ep-iFrameContainer" data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow"
-            data-trigger-value="" data-activation-type="alwaysActivated" data-activation-value=""
-            data-deactivation-type="neverDeactivate" data-deactivation-value="" data-form-name="Formulario - BLONECT"
-            data-height="636" data-layout-iframe-id="inline-ahmRpBFXlkpEkwQipkkt" data-form-id="ahmRpBFXlkpEkwQipkkt"
-            title="Formulario - BLONECT">
-        </iframe>
+        <form class="whitelist-form" id="whitelist-form">
+            <input type="text" name="firstName" placeholder="First Name *" required>
+            <input type="text" name="lastName" placeholder="Last Name *" required>
+            <input type="email" name="email" placeholder="Email Address *" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <select name="country" required>
+                <option value="">Select Country *</option>
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="ES">Spain</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="IT">Italy</option>
+                <option value="PT">Portugal</option>
+                <option value="AR">Argentina</option>
+                <option value="MX">Mexico</option>
+                <option value="CO">Colombia</option>
+                <option value="CL">Chile</option>
+                <option value="BR">Brazil</option>
+                <option value="OTHER">Other</option>
+            </select>
+            
+            <div class="form-checkbox">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#" target="_blank">Privacy Policy</a> *</label>
+            </div>
+            
+            <div class="form-checkbox">
+                <input type="checkbox" id="updates" name="updates">
+                <label for="updates">I want to receive updates about Blonect Wallet</label>
+            </div>
+            
+            <button type="submit" class="form-btn">Apply to Whitelist</button>
+        </form>
 
         <div class="form-footer">
             <img src="assets/img/logo.png" alt="Blonect Wallet Logo" class="footer-logo">

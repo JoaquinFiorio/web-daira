@@ -95,9 +95,16 @@
   },
   "form": {
     "title": "Modulo - BLONECT",
+    "button": "Candidati alla Whitelist",
     "footer": {
       "logo_alt": "Logo di Blonect Wallet",
       "copyright": "© Copyright Blonect. Tutti i diritti riservati."
     }
+  },
+  "countdown": {
+    "days": "GIORNI",
+    "hours": "ORE",
+    "minutes": "MINUTI",
+    "seconds": "SECONDI"
   }
 }
