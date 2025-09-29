@@ -8,7 +8,8 @@
     <!-- Google Fonts - Inter (Web3 Professional Font) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/main.css">
 
     <!-- ✅ Icono de la pestaña -->
@@ -68,11 +69,11 @@
         <img class="shadow" src="./assets/img/Landing-page1_03.png" alt="">
         <div class="hero-content">
             <div class="title-container">
-                <span class="title" data-text="YOUR SPOT IN THE">
+                <span class="title">
                     YOUR SPOT IN THE
                 </span>
-                <span class="title" data-text="NEXT ECONOMY">NEXT ECONOMY</span>
-                <span class="title" data-text="STARTS HERE">STARTS HERE</span>
+                <span class="title">NEXT ECONOMY</span>
+                <span class="title">STARTS HERE</span>
             </div>
             <p>
                 Be part of the wallet's tokenization before the official launch. Get early access and a better price,
@@ -92,14 +93,15 @@
         </div>
     </div>
     <div class="hero-section-2">
-        <h1 class="title" data-text="WHAT IS BLONECT?">
+        <h1 class="title">
             WHAT IS BLONECT?
         </h1>
-        <span class="center-text">Blonect is a multichain wallet built on Uni2Chain. This wallet integrates crypto, NFTs,
+        <span class="center-text">Blonect is a multichain wallet built on Uni2Chain. This wallet integrates crypto,
+            NFTs,
             social, gaming and DeFi into one seamless experience, fully decentralized.</span>
         <button class="hero-btn" style="margin-top: 50px;">Join now</button>
         <div class="separator"></div>
-        <span class="title" data-text="FEATURES OF BLONECT">
+        <span class="title">
             FEATURES OF BLONECT
         </span>
         <div class="features-highlights">
@@ -163,7 +165,7 @@
         <div class="gradient"></div>
     </div>
     <div class="hero-section-2">
-        <span class="title" data-text="TOKEN LAUNCH OVERVIEW">
+        <span class="title">
             TOKEN LAUNCH OVERVIEW
         </span>
         <div class="table-container">
@@ -201,7 +203,7 @@
         </div>
     </div>
     <div class="hero-section-2">
-        <span class="title" data-text="REWARD EMISSION BREAKDOWN">
+        <span class="title">
             REWARD EMISSION BREAKDOWN
         </span>
         <p class="center-text" style="color: #f0a020;">Own a share of the wallet's real economic engine.</p>
@@ -248,7 +250,7 @@
         </div>
     </div>
     <div class="hero-section-2">
-        <span class="title" data-text="WHY JOIN THE BLONECT WHITELIST">
+        <span class="title">
             WHY JOIN THE BLONECT WHITELIST
         </span>
         <div class="features-section">
@@ -278,8 +280,8 @@
     </div>
     <div class="hero-section-2">
         <img class="shadow" src="./assets/img/Landing-page1_03.png" alt="">
-        <span class="title" data-text="WHY JOIN THE BLONECT WHITELIST">
-            WHY JOIN THE BLONECT WHITELIST
+        <span class="title" id="apply-button-title">
+            APPLY FOR BLONECT WHITELIST
         </span>
         <form class="whitelist-form" id="whitelist-form">
             <input type="text" name="firstName" placeholder="First Name *" required>
@@ -303,17 +305,18 @@
                 <option value="BR">Brazil</option>
                 <option value="OTHER">Other</option>
             </select>
-            
+
             <div class="form-checkbox">
                 <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#" target="_blank">Privacy Policy</a> *</label>
+                <label for="terms">I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#"
+                        target="_blank">Privacy Policy</a> *</label>
             </div>
-            
+
             <div class="form-checkbox">
                 <input type="checkbox" id="updates" name="updates">
                 <label for="updates">I want to receive updates about Blonect Wallet</label>
             </div>
-            
+
             <button type="submit" class="form-btn">Apply to Whitelist</button>
         </form>
 
@@ -326,5 +329,45 @@
 
 <script src="https://api.connectingstartup.com/js/form_embed.js"></script>
 <script src="./assets/main.js"></script>
+<script src="./assets/translation.js"></script>
+
+<script>
+    // Fecha objetivo del countdown
+    const targetDate = new Date("2025-10-22T23:59:59").getTime();
+
+    const daysEl = document.getElementById("days");
+    const hoursEl = document.getElementById("hours");
+    const minutesEl = document.getElementById("minutes");
+    const secondsEl = document.getElementById("seconds");
+
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        if (distance <= 0) {
+            // Countdown finalizado
+            daysEl.innerText = "00";
+            hoursEl.innerText = "00";
+            minutesEl.innerText = "00";
+            secondsEl.innerText = "00";
+            clearInterval(countdownInterval);
+            return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        daysEl.innerText = String(days).padStart(2, "0");
+        hoursEl.innerText = String(hours).padStart(2, "0");
+        minutesEl.innerText = String(minutes).padStart(2, "0");
+        secondsEl.innerText = String(seconds).padStart(2, "0");
+    }
+
+    // Actualizar cada segundo
+    const countdownInterval = setInterval(updateCountdown, 1000);
+    updateCountdown(); // Inicializa inmediatamente
+</script>
 
 </html>
