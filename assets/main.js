@@ -1,10 +1,12 @@
 const languageSwitcher = document.getElementById("language-switcher");
 
-languageSwitcher.addEventListener("change", () => {
-  const lang = languageSwitcher.value;
-  applyTranslations(lang);
-});
+// 🔹 Obtener idioma desde query param (?lang=es)
+function getLangFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("lang");
+}
 
+// 🔹 Aplicar traducciones según el idioma elegido
 function applyTranslations(lang) {
   const t = translations[lang];
   if (!t) return;
@@ -99,5 +101,21 @@ function applyTranslations(lang) {
   document.querySelector(".form-footer p").textContent = t.footer.copyright;
 }
 
-// Inicializa con el idioma por defecto
-applyTranslations(languageSwitcher.value);
+// 🔹 Escuchar cambios manuales en el selector
+languageSwitcher.addEventListener("change", () => {
+  const lang = languageSwitcher.value;
+  applyTranslations(lang);
+  // Actualizar la URL con el idioma elegido (opcional)
+  const url = new URL(window.location);
+  url.searchParams.set("lang", lang);
+  window.history.replaceState({}, "", url);
+});
+
+// 🔹 Inicializar idioma automáticamente
+(function initLanguage() {
+  const queryLang = getLangFromQuery();
+  const defaultLang = "en"; // inglés por defecto
+  const langToUse = queryLang || defaultLang;
+  languageSwitcher.value = langToUse;
+  applyTranslations(langToUse);
+})();
