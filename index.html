@@ -306,6 +306,23 @@
                 <option value="OTHER">Other</option>
             </select>
 
+            <select name="tokenization" required>
+                <option value="">Do you know what tokenization is? *</option>
+                <option value="YES">Yes</option>
+                <option value="NO">No</option>
+            </select>
+
+            <select name="invest" required>
+                <option value="">How much would you like to invest? *</option>
+                <option value="Menos de 5000">Less than $5,000</option>
+                <option value="5000-10000">$5,000 - $10,000</option>
+                <option value="10000-25000">$10,000 - $25,000</option>
+                <option value="25000-100000">$25,000 - $100,000</option>
+                <option value="Más de 100000">More than $100,000</option>
+            </select>
+
+            <input type="text" name="wallet" placeholder="Your wallet address (optional)">
+
             <div class="form-checkbox">
                 <input type="checkbox" id="terms" name="terms" required>
                 <label for="terms">I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#"
@@ -368,6 +385,52 @@
     // Actualizar cada segundo
     const countdownInterval = setInterval(updateCountdown, 1000);
     updateCountdown(); // Inicializa inmediatamente
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const form = document.getElementById("whitelist-form");
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            // Crear objeto con todos los datos del formulario
+            const formData = {
+                firstName: form.firstName.value.trim(),
+                lastName: form.lastName.value.trim(),
+                email: form.email.value.trim(),
+                phone: form.phone.value.trim(),
+                country: form.country.value,
+                tokenization: form.tokenization.value,
+                invest: form.invest.value,
+                wallet: form.wallet.value.trim(),
+                termsAccepted: form.terms.checked,
+                updatesSubscribed: form.updates.checked
+            };
+
+            try {
+                const response = await fetch("http://localhost:3000/api/form/whitelist", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert("✅ Successfully applied to the whitelist!");
+                    form.reset();
+                } else {
+                    alert("⚠️ Error: " + (data.message || "Unable to submit form."));
+                }
+            } catch (error) {
+                console.error("Error submitting form:", error);
+                alert("❌ Network error. Please try again later.");
+            }
+        });
+    });
 </script>
 
 </html>
