@@ -46,7 +46,7 @@ const translations = {
           ["Supply", "200,000 tokens (2%)", "700,000 tokens (7%)"],
           ["Price", "$15/token", "$25/token"],
           ["Raise Target", "$3M", "$17.5M"],
-          ["Access", "Whitelist only", "Open to all"]
+          ["Access", "Whitelist access only", "Public Sale"]
         ]
       }
     },
@@ -149,7 +149,7 @@ const translations = {
           ["Suministro", "200,000 tokens (2%)", "700,000 tokens (7%)"],
           ["Precio", "$15/token", "$25/token"],
           ["Objetivo de recaudación", "$3M", "$17.5M"],
-          ["Acceso", "Solo lista blanca", "Abierto a todos"]
+          ["Acceso", "Solo lista blanca", "Venta pública"]
         ]
       }
     },
@@ -240,7 +240,7 @@ const translations = {
           ["Approvisionnement", "200 000 tokens (2%)", "700 000 tokens (7%)"],
           ["Prix", "15 $/token", "25 $/token"],
           ["Objectif de levée", "3 M$", "17,5 M$"],
-          ["Accès", "Liste blanche seulement", "Ouvert à tous"]
+          ["Accès", "Liste blanche uniquement", "Vente publique"]
         ]
       }
     },
@@ -331,7 +331,7 @@ const translations = {
           ["Fornitura", "200.000 token (2%)", "700.000 token (7%)"],
           ["Prezzo", "15 $/token", "25 $/token"],
           ["Obiettivo raccolta fondi", "3 M$", "17,5 M$"],
-          ["Accesso", "Solo lista bianca", "Aperto a tutti"]
+          ["Accesso", "Solo lista bianca", "Vendita pubblica"]
         ]
       }
     },
@@ -422,7 +422,7 @@ const translations = {
           ["Oferta", "200.000 tokens (2%)", "700.000 tokens (7%)"],
           ["Preço", "$15/token", "$25/token"],
           ["Meta de arrecadação", "$3M", "$17,5M"],
-          ["Acesso", "Apenas lista branca", "Aberto a todos"]
+          ["Acesso", "Apenas lista branca", "Venda pública"]
         ]
       }
     },
@@ -513,7 +513,7 @@ const translations = {
           ["Angebot", "200.000 Tokens (2%)", "700.000 Tokens (7%)"],
           ["Preis", "15 $/Token", "25 $/Token"],
           ["Finanzierungsziel", "3 Mio. $", "17,5 Mio. $"],
-          ["Zugang", "Nur Whitelist", "Für alle offen"]
+          ["Zugang", "Nur Whitelist", "Für alle zugänglich"]
         ]
       }
     },
