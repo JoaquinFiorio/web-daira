@@ -342,11 +342,44 @@
             <p>© Copyright Blonect. All rights reserved.</p>
         </div>
     </div>
+
+    <div id="whitelistModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>¡Gracias por unirte a la whitelist de Blonect!</h2>
+            <p>Recibirás nuestras actualizaciones, novedades y acceso prioritario a nuestros lanzamientos. Estás
+                oficialmente en el inicio de algo grande.</p>
+            <a href="https://t.me/Blonectwallet" target="_blank" class="telegram-btn">Ir al Telegram</a>
+        </div>
+    </div>
 </body>
 
 <script src="https://api.connectingstartup.com/js/form_embed.js"></script>
 <script src="./assets/main.js"></script>
 <script src="./assets/translation.js"></script>
+
+<script>
+    // Abrir modal
+    const modal = document.getElementById("whitelistModal");
+    const openBtn = document.getElementById("openModalBtn");
+    const closeBtn = document.querySelector(".close-btn");
+
+    openBtn.onclick = () => {
+        modal.style.display = "flex";
+    }
+
+    // Cerrar modal con X
+    closeBtn.onclick = () => {
+        modal.style.display = "none";
+    }
+
+    // Cerrar modal al hacer click afuera del contenido
+    window.onclick = (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 
 <script>
     // Fecha objetivo del countdown
@@ -390,6 +423,8 @@
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const form = document.getElementById("whitelist-form");
+        const modal = document.getElementById("whitelistModal");
+        const closeBtn = document.querySelector(".close-btn");
 
         form.addEventListener("submit", async (e) => {
             e.preventDefault();
@@ -420,7 +455,9 @@
                 const data = await response.json();
 
                 if (response.ok) {
-                    alert("✅ Successfully applied to the whitelist!");
+                    // Abrir modal en lugar de alert
+                    modal.style.display = "flex";
+                    modal.style.visibility = "visible";
                     form.reset();
                 } else {
                     alert("⚠️ Error: " + (data.message || "Unable to submit form."));
@@ -430,6 +467,18 @@
                 alert("❌ Network error. Please try again later.");
             }
         });
+
+        // Cerrar modal con X
+        closeBtn.onclick = () => {
+            modal.style.display = "none";
+        }
+
+        // Cerrar modal al hacer click afuera del contenido
+        window.onclick = (event) => {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        }
     });
 </script>
 

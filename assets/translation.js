@@ -104,6 +104,11 @@ const translations = {
     },
     footer: {
       copyright: "© Copyright Blonect. All rights reserved."
+    },
+    modal: {
+      title: "Thank you for joining the Blonect whitelist!",
+      text: "You will receive our updates, news, and priority access to our launches. You are officially at the beginning of something big.",
+      cta: "Go to Telegram"
     }
   },
   es: {
@@ -199,6 +204,11 @@ const translations = {
     },
     footer: {
       copyright: "© Copyright Blonect. Todos los derechos reservados."
+    },
+    modal: {
+      title: "¡Gracias por unirte a la whitelist de Blonect!",
+      text: "Recibirás nuestras actualizaciones, novedades y acceso prioritario a nuestros lanzamientos. Estás oficialmente en el inicio de algo grande.",
+      cta: "Ir al Telegram"
     }
   },
   fr: {
@@ -294,6 +304,11 @@ const translations = {
     },
     footer: {
       copyright: "© Copyright Blonect. Tous droits réservés."
+    },
+    modal: {
+      title: "Merci de rejoindre la whitelist de Blonect !",
+      text: "Vous recevrez nos mises à jour, actualités et accès prioritaire à nos lancements. Vous êtes officiellement au début de quelque chose de grand.",
+      cta: "Aller sur Telegram"
     }
   },
   it: {
@@ -389,6 +404,11 @@ const translations = {
     },
     footer: {
       copyright: "© Copyright Blonect. Tutti i diritti riservati."
+    },
+    modal: {
+      title: "Grazie per esserti unito alla whitelist di Blonect!",
+      text: "Riceverai i nostri aggiornamenti, novità e accesso prioritario ai nostri lanci. Sei ufficialmente all'inizio di qualcosa di grande.",
+      cta: "Vai su Telegram"
     }
   },
   pt: {
@@ -484,6 +504,11 @@ const translations = {
     },
     footer: {
       copyright: "© Copyright Blonect. Todos os direitos reservados."
+    },
+    modal: {
+      title: "Obrigado por se juntar à whitelist da Blonect!",
+      text: "Você receberá nossas atualizações, novidades e acesso prioritário aos nossos lançamentos. Você está oficialmente no início de algo grande.",
+      cta: "Ir para o Telegram"
     }
   },
   de: {
@@ -579,6 +604,11 @@ const translations = {
     },
     footer: {
       copyright: "© Copyright Blonect. Alle Rechte vorbehalten."
+    },
+    modal: {
+      title: "Danke, dass du dich auf die Blonect-Whitelist eingetragen hast!",
+      text: "Du erhältst unsere Updates, Neuigkeiten und vorrangigen Zugang zu unseren Veröffentlichungen. Du bist offiziell am Anfang von etwas Großem.",
+      cta: "Zum Telegram"
     }
   }
 };

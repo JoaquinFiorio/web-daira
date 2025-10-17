@@ -51,6 +51,12 @@ function applyTranslations(lang) {
     });
   });
 
+  // Modal
+  const modal = document.getElementById("whitelistModal");
+  modal.querySelector(".modal-content h2").textContent = t.modal.title;
+  modal.querySelector(".modal-content p").textContent = t.modal.text;
+  modal.querySelector(".modal-content a").textContent = t.modal.cta;
+
   // Reward Emission Breakdown
   const hero2_3 = document.querySelectorAll(".hero-section-2")[2];
   hero2_3.querySelector(".title").textContent = t.heroSection2_3.heading;
