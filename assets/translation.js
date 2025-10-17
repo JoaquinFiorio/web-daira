@@ -41,7 +41,11 @@ const translations = {
     heroSection2_2: {
       heading: "TOKEN LAUNCH OVERVIEW",
       table: {
-        headers: ["", "Phase 1: Whitelist", "Phase 2: Public sale"],
+        headers: [
+          "",
+          "Phase 1: Whitelist\nOctober 16 - November 29 2025",
+          "Phase 2: Public sale\nDecember 1st 2025"
+        ],
         rows: [
           ["Supply", "200,000 tokens (2%)", "700,000 tokens (7%)"],
           ["Price", "$15/token", "$25/token"],
@@ -144,7 +148,11 @@ const translations = {
     heroSection2_2: {
       heading: "VISIÓN DEL LANZAMIENTO DEL TOKEN",
       table: {
-        headers: ["", "Fase 1: Lista blanca", "Fase 2: Venta pública"],
+        headers: [
+          "",
+          "Fase 1: Lista blanca\n16 de octubre - 29 de noviembre de 2025",
+          "Fase 2: Venta pública\n1 de diciembre de 2025"
+        ],
         rows: [
           ["Suministro", "200,000 tokens (2%)", "700,000 tokens (7%)"],
           ["Precio", "$15/token", "$25/token"],
@@ -235,7 +243,11 @@ const translations = {
     heroSection2_2: {
       heading: "APERÇU DU LANCEMENT DU TOKEN",
       table: {
-        headers: ["", "Phase 1 : Liste blanche", "Phase 2 : Vente publique"],
+        headers: [
+          "",
+          "Phase 1 : Liste blanche\n16 octobre - 29 novembre 2025",
+          "Phase 2 : Vente publique\n1er décembre 2025"
+        ],
         rows: [
           ["Approvisionnement", "200 000 tokens (2%)", "700 000 tokens (7%)"],
           ["Prix", "15 $/token", "25 $/token"],
@@ -326,7 +338,11 @@ const translations = {
     heroSection2_2: {
       heading: "PANORAMICA DEL LANCIO DEL TOKEN",
       table: {
-        headers: ["", "Fase 1: Lista bianca", "Fase 2: Vendita pubblica"],
+        headers: [
+          "",
+          "Fase 1: Lista bianca\n16 ottobre - 29 novembre 2025",
+          "Fase 2: Vendita pubblica\n1 dicembre 2025"
+        ],
         rows: [
           ["Fornitura", "200.000 token (2%)", "700.000 token (7%)"],
           ["Prezzo", "15 $/token", "25 $/token"],
@@ -417,7 +433,11 @@ const translations = {
     heroSection2_2: {
       heading: "VISÃO GERAL DO LANÇAMENTO DO TOKEN",
       table: {
-        headers: ["", "Fase 1: Lista branca", "Fase 2: Venda pública"],
+        headers: [
+          "",
+          "Fase 1: Lista branca\n16 de outubro - 29 de novembro de 2025",
+          "Fase 2: Venda pública\n1º de dezembro de 2025"
+        ],
         rows: [
           ["Oferta", "200.000 tokens (2%)", "700.000 tokens (7%)"],
           ["Preço", "$15/token", "$25/token"],
@@ -508,7 +528,11 @@ const translations = {
     heroSection2_2: {
       heading: "ÜBERSICHT DES TOKEN-LAUNCHES",
       table: {
-        headers: ["", "Phase 1: Whitelist", "Phase 2: Öffentlicher Verkauf"],
+        headers: [
+          "",
+          "Phase 1: Whitelist\n16. Oktober – 29. November 2025",
+          "Phase 2: Öffentlicher Verkauf\n1. Dezember 2025"
+        ],
         rows: [
           ["Angebot", "200.000 Tokens (2%)", "700.000 Tokens (7%)"],
           ["Preis", "15 $/Token", "25 $/Token"],
